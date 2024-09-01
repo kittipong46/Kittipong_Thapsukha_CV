@@ -27,10 +27,14 @@
                 width: 400px;
                 
             }
-        }
 
+            button{
+    margin-top: 5px;
+}
+        }
+   
         #imphoto {
-            border-radius: 24px;
+            border-radius: 124px;
         }
 
         #imphotosub{
@@ -44,13 +48,12 @@
 
         h2 {
             color: rgb(38, 70, 250);
-            text-shadow: 2px 2px 2px #fccf06;
+            text-shadow: 2px 2px 2px #06aefc;
 
         }
 
         h5 {
             color: rgb(236, 106, 74);
-            font-size: 24px;
         }
 
         hr {
@@ -188,6 +191,27 @@ button{
     color: #226bf3;
 }
 
+#topic{
+    color: #1303f8;
+}
+
+@media only screen and (max-width: 600px) {
+
+#imphoto{
+    height: 300px;
+    width: 250px;
+    
+}
+
+button{
+    width: 110px;
+    margin-top: 5px;
+}
+
+
+}
+
+
 
     </style>
 
@@ -199,7 +223,7 @@ button{
         <div class="col-my-3">
             <div class="my-3"></div>
             <center><br>
-                <h2>Kittipong Thapsukha (Curriculum Vitae)</h2>
+                <h2>Kittipong Thapsukha (Bang)</h2>
             </center>
         </div>
 
@@ -209,14 +233,26 @@ button{
                 <div class="col-xl-3">
 
                     <!--<center><img id="imphoto" src="photo/kit/4539.jpg" width="180px;"></center>-->
-                    <center><img id="imphoto" src="1722865013063y.png" width="240px;"></center>
+                    <center><img id="imphoto" src="1722865013063y.jpg" width="240px;"></center>
+                    <p style="text-align: center; margin-top: 15px; margin-bottom: -2px;">Birthday is June 24, 1996</p> 
                 </div>
                 
                 <div class="col-xl-9 pos">
                     <br>
-                    <h5>Programmer, Software Developer, Full Stack Developer</h5>
-                    <hr>
-                    <p>I have experience in software development 3 years and 5 months in Human resources systems(CompuPower Co., Ltd.) and Warehouse systems(Similan Technology Co., Ltd.), On the work mainly used C# SQL, Use .Net framework, Made LINQ and SQL stored procedures for managing data results, Used Git version control for work with a team, used unit Test check process of the program, And Crystal report made another report, Use database SQL server Oracle and MySQL, Some time use Entity framework and Angular, Present live in Bang Na Tai, Bang Na, Bangkok, Finish Bachelor of Business Administration major in Computer Information system at the Rajamangala University of Technology Isan, Nakhon Ratchasima, GPA 3.46.
+                    <h5>C# .Net Developer, Programmer (C# .Net), Software Developer (C# .Net),
+                         Full Stack Developer</h5>
+
+                         <p><b id="topic">Profile</b></p>
+                    <hr style="margin-top: -17px;">
+                    <p style="margin-top: -10px;">I have experience in software development 3 years and 5 months in Human resources
+                         systems(CompuPower Co., Ltd.) and Warehouse systems(Similan Technology Co., Ltd.),
+                          On the work mainly used C# SQL, Use .Net framework, Made LINQ and SQL stored 
+                          procedures for managing data results, Used Git version control for work with a team,
+                           used unit Test check process of the program, And Crystal report made another report,
+                            Use database SQL server Oracle and MySQL, Some time use Entity framework and Angular,
+                             Present live in Bang Na Tai, Bang Na, Bangkok, Finish Bachelor of Business 
+                             Administration major in Computer Information system at the Rajamangala University
+                              of Technology Isan, Nakhon Ratchasima, GPA 3.46 Age 28 years old.
 
                     </p>
 
@@ -228,18 +264,18 @@ button{
 
             <div class="col-xl-3" style="float: left;">
 
-                <b>CONTACT ME</b> <br>
-                <div style="float: left; margin-right: 5px;"><p><b>Phone:</b>  082-9986463</p></div>
-                <div style="float: left; margin-right: 5px;"><p><b>Email:</b>  kittipong.thapsukha@gmail.com </p></div>
-                <div style="float: left; margin-right: 5px;"><p><b>Line:</b>  gon459</p></div>
-                <div style="float: left; margin-right: 5px;"><p><b>Address:</b> Bang Na Tai, Bang Na, Bangkok 10260</p></div>
+                <b id="topic">CONTACT ME</b> <hr style="margin-top: -2px;"><br>
+                <div style="float: left; margin-right: 5px; margin-top: -30px;"><p><b>Phone:</b>  082-9986463</p></div>
+                <div style="float: left; margin-right: 5px;  margin-top: -10px;"><p><b>Email:</b>  kittipong.thapsukha@gmail.com </p></div>
+                <div style="float: left; margin-right: 5px;  margin-top: -10px;"><p><b>Line:</b>  gon459</p></div>
+                <div style="float: left; margin-right: 5px;  margin-top: -10px;"><p><b>Address:</b> Bang Na Tai, Bang Na, Bangkok 10260</p></div>
                
 
             </div>
             <div class="col-xl-9 pos" style="float: left;">
 
                 <div class="sticky-top" style="margin-bottom: 20px;">
-                    <a href="#gitphoto" onclick="hidealldiv(),showgit()"><button class="btn btn-primary">Gitlab history</button> </a>
+                    <a href="#gitphoto" onclick="hidealldiv(),showgit()"><button class="btn btn-primary">Gitlab</button> </a>
                     <a href="#experience" onclick="hidealldiv(),experience()"><button class="btn btn-primary">Experience</button> </a>
                     <a href="#res" onclick="hidealldiv(),skill()"><button class="btn btn-primary">Skill</button> </a>
                     <a href="#edu" onclick="hidealldiv(),education()"><button class="btn btn-primary">Education</button> </a>
@@ -249,6 +285,7 @@ button{
 
 
                 <div class="carousel slide" data-ride="carousel" id = "gitphoto">
+                    <p>Start using GitLab on April 18, 2022, at CompuPower Co.,Ltd.</p>
                     <img id="imphotosub" src="git2.jpg" >
                     <img id="imphotosub" src="git1.png" >
                </div>
@@ -256,24 +293,25 @@ button{
                     <div style="margin-bottom: 20px;" id="experience" class="carousel slide" data-ride="carousel">
 
                         <div style="margin-bottom: 30px;">
-                            <b>WORK EXPERIENCE</b> <hr>
-                            <div id="compupower">
-                                <pre>
-<b id="company">CompuPower Co.,Ltd.</b>| Lumpinee, Patumwan, Bangkok
-<b id="posi">Position: HR Software Development</b>
-    April 18, 2022 - present (2 years and 5 months)
-    <b>Job description</b>
-    1. Develop and modify all APIs of the HR system for work according to customer requests 
-    using the .net framework.
-    2. Develop SQL script support for SQL server database and Oracle database.
-    3. Develop and modify various reports using crystal reports.
-    4. Using LinQ manage search and control amount of data.
-    5. Using Unit Tests to test the correctness work of the program before sending it to the tester.
-    <b>Projects API:</b> Portal HR, import employee data CSV, and personal details.</pre>
+                            <b id="topic">WORK EXPERIENCE</b> <hr style="margin-top: -2px;">
+                            <div id="compupower" style=" margin-top: 25px;">
+                                <p style="margin-top: -15px;"><b id="company">CompuPower Co.,Ltd.</b>| Lumpinee, Patumwan, Bangkok</p>
+                                <p  style="margin-top: -15px;"><b id="posi">Position: HR Software Development</b></p>
+                                <p  style="margin-top: -15px;">April 18, 2022 - present (2 years and 5 months)</p>
+                                <p  style="margin-top: -15px; margin-left: 30px;"><b>Job description</b></p>
+                                <p  style="margin-top: -15px; margin-left: 30px;"> 1. Develop and modify all APIs of the HR system for work according to customer requests 
+                                    using the .net framework.</p>
+                                <p  style="margin-top: -15px; margin-left: 30px;">2. Develop SQL script support for SQL server database and Oracle database.</p>
+                                <p  style="margin-top: -15px; margin-left: 30px;">    3. Develop and modify various reports using crystal reports.</p>
+                                <p  style="margin-top: -15px; margin-left: 30px;">4. Using LinQ manage search and control amount of data.</p>
+                                <p  style="margin-top: -15px; margin-left: 30px;">5. Using Unit Tests to test the correctness work of the program before sending it to the tester.</p>
+                                <p  style="margin-top: -15px; margin-left: 30px;"><b>Projects API:</b> Portal HR, import employee data CSV, and personal details.</p>
+                                <p  style="margin-top: -15px; margin-left: 30px;">    <b>Reward:</b> Reward for project completion.</p>
+                                <p id="exwork"><b style="color: rgb(220, 43, 20);">Example work may be present in the interview.</b></p>
+                                <button class="btn btn-info" onclick="comre(),experience()">Reward</button>
                                 <a href="#compuacti" onclick="hidealldiv(),experience(),compuacti(),hidegit()"><button class="btn btn-info">Activity</button> </a>
-                                <button class="btn btn-info" onclick="comre()">Reward</button>
-                                <a href="#compuworks" > <button class="btn btn-info">Ex Works</button> </a>
-                                
+                                <a href="#compuworks" > <button class="btn btn-info" onclick="exwork()">Ex Works</button> </a>
+                               
 
                                 <div id="comre">
                                     <br>
@@ -286,40 +324,42 @@ button{
                         </div>
 
                         <div style="margin-bottom: 30px;" id="similan">
-                            <pre>
-<b id="company">Similan Technology Co., Ltd.</b>| Bangkaew, Bangphli, Samutprakarn
-<b id="posi">Position: Programmer</b>
-    November 23, 2020 – December 17, 2021 (a year and a month)
-    <b>Job description</b>
-    1. Modify various processes for work according to customer direct requestment, Take care of 
-    the part Windows application using c#.
-    2. Manange various reports using crystal reports.
-    3. Manage various processes of SQL Stored Procedure work. 
-    4. Develop a web application for managing product orders using .Net core MVC.
-    5. Manage company web for control feedback on various issues of customers, and warn data of 
-    various issues to line notify using PHP.
-    6. Develop API for transferring data with customers.
-    <b>Projects:</b> Wattananukit(.Net core MVC), Web issue(PHP), LDC(crystal report), DMG API(C#).</pre>
+                            
+                            <p style="margin-top: 15px;"><b id="company">Similan Technology Co., Ltd.</b>| Bangkaew, Bangphli, Samutprakarn</p>
+                            <p style="margin-top: -15px;"><b id="posi">Position: Programmer</b></p>
+                            <p style="margin-top: -15px;">November 23, 2020 – December 17, 2021 (a year and a month)</p>
+                            <p style="margin-top: -15px; margin-left: 30px;"> <b>Job description</b></p>
+                            <p style="margin-top: -15px; margin-left: 30px;">1. Modify various processes for work according to customer direct requestment, Take care of 
+                                the part Windows application using c#.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;"> 2. Manange various reports using crystal reports.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;">3. Manage various processes of SQL Stored Procedure work.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;">  4. Develop a web application for managing product orders using .Net core MVC.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;"> 5. Manage company web for control feedback on various issues of customers, and warn data of 
+                                various issues to line notify using PHP.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;">6. Develop API for transferring data with customers.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;"><b>Projects:</b> Wattananukit(.Net core MVC), Web issue(PHP), LDC(crystal report), DMG API(C#).</p>
+<p style="margin-top: -15px; margin-left: 30px;"><b>Rewards: </b>Get Value of diligence 7 months in condition(Don't take a leave of absence work,
+    Don't miss work, Don't be late for work) in the month.</p>
+    <p id="exworksi"><b style="color: rgb(220, 43, 20);">Example work may be present in the interview.</b></p>
                         <div>
                             <a href="#simievalua" onclick="hidealldiv(),experience(),simievalua(),hidegit()"><button class="btn btn-info">Evaluation</button> </a>
                             <a href="#simireward" onclick="hidealldiv(),experience(),simireward(),hidegit()"> <button class="btn btn-info">Reward</button> </a>
                             <a href="#simiacti" onclick="hidealldiv(),experience(),simiacti(),hidegit()"> <button class="btn btn-info">Activity</button> </a>
-                            <a href="#simiworks" > <button class="btn btn-info">Ex Works</button> </a>
+                            <a href="#simiworks" > <button class="btn btn-info" onclick="exworksi()">Ex Works</button> </a>
                             
                            </div> 
                         </div>
                     
                         <div style="margin-bottom: 30px;" id="genius">
-                            <pre>
-<b id="company">Genius-Tree Co., Ltd.</b>| Pak Kret, Nonthaburi
-<b>Co-operative Education</b>
-<b id="posi">Position: Programmer</b>
-    June 18, 2018 - October 19, 2018 (4 months)
-    <b>Job description</b>
-    1. Read books about JAVA JavaScript CSS HTML SQL languages.
-    2. Test the website developed by the company for flaws.
-    3. Practice using the Linux operating system.
-    <b>Co-operative Education Project:</b> Tracking System of Project Progress.</pre>
+                            <p style="margin-top: 15px;"><b id="company">Genius-Tree Co., Ltd.</b>| Pak Kret, Nonthaburi</p>
+                            <p style="margin-top: -15px;"><b>Co-operative Education</b></p>
+                            <p style="margin-top: -15px;"><b id="posi">Position: Programmer</b></p>
+                            <p style="margin-top: -15px;">June 18, 2018 - October 19, 2018 (4 months)</p>
+                            <p style="margin-top: -15px; margin-left: 30px;">  <b>Job description</b></p>
+                            <p style="margin-top: -15px; margin-left: 30px;">1. Test the website developed by the company for flaws.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;">2. Design and development application in Java language in work scope to complete.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;"><b>Co-operative Education Project:</b> Tracking System of Project Progress.</p>
+                          
     <center>
         <video width="500" controls>
             <source src="videos/Cpro.m4v" type="video/mp4">
@@ -331,25 +371,24 @@ button{
                         </div>
                        
                         <div style="margin-bottom: 20px;" id="ELEVEN1">
-                            <pre>
-<b id="company">7-ELEVEN</b>| opposite Nakhon Ratchasima Rajabhat University
-<b id="posi">Position: Position: Part-Time</b>
-April 26, 2016 - July 25, 2016 (3 months)
-    <b>Job description</b>
-    1. Replenish products.
-    2. Receive payment for products.
-    3. Clean various equipment.
-    4. Prevent products from being stolen.</pre>
+                            <p style="margin-top: 15px;"><b id="company">7-ELEVEN</b>| opposite Nakhon Ratchasima Rajabhat University</p>
+                            <p style="margin-top: -15px;"><b id="posi">Position: Position: Part-Time</b></p>
+                            <p style="margin-top: -15px;">April 26, 2016 - July 25, 2016 (3 months)</p>
+                            <p style="margin-top: -15px; margin-left: 30px;"> <b>Job description</b></p>
+                            <p style="margin-top: -15px; margin-left: 30px;">1. Replenish products.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;">2. Receive payment for products.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;">3. Clean various equipment.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;">4. Prevent products from being stolen.</p>
+
                         </div>
                           
                         <div style="margin-bottom: 20px;" id="ELEVEN2">
-                            <pre>
-<b id="company">7-ELEVEN</b>| Thetsaban Bang Pu 69, Mueang Samut Prakan, Samut Prakan
-<b id="posi">Position: Position: Part-Time</b>
-May 15, 2015 - July 22, 2015 (2 months)
-    <b>Job description</b>
-    1. Replenish products.
-    2. Order beverage products.</pre>
+                            <p style="margin-top: 15px;"><b id="company">7-ELEVEN</b>| Thetsaban Bang Pu 69, Mueang Samut Prakan, Samut Prakan</p>
+                            <p style="margin-top: -15px;"><b id="posi">Position: Position: Part-Time</b></p>
+                            <p style="margin-top: -15px;">May 15, 2015 - July 22, 2015 (2 months)</p>
+                            <p style="margin-top: -15px; margin-left: 30px;"><b>Job description</b></p>
+                            <p style="margin-top: -15px; margin-left: 30px;">1. Replenish products.</p>
+                            <p style="margin-top: -15px; margin-left: 30px;">2. Order beverage products.</p>
                         </div>
                        
                     </div>
@@ -358,15 +397,15 @@ May 15, 2015 - July 22, 2015 (2 months)
                     <div id="education" class="carousel slide" data-ride="carousel">
 
                         <div style="margin-bottom: 20px;">
-                            <b>EDUCATION</b> <hr>
+                            <b id="topic">EDUCATION</b> <hr style="margin-top: -2px;">
                             <div>
-                                <pre>
-<b>Degree:</b> Bachelor of Business Administration
-<b>Major:</b> Computer Information System
-Rajamangala University of Technology Isan, Nakhon Ratchasima
-August 17, 2015 – April 9, 2019
-<b>Project:</b> Information System for Beef cattle farms (Wagil) in the Northeast. (PHP)
-<b>GPA:</b> <a href="pdfs/transcript.pdf" target="_blank">3.46</a></pre>
+                              <p style="margin-top: -10px;"><b id="company">Degree:</b> Bachelor of Business Administration</p>
+                              <p style="margin-top: -15px;"><b id="posi">Major:</b> Computer Information System</p>
+                              <p style="margin-top: -15px;">Rajamangala University of Technology Isan (RMUTI), Nakhon Ratchasima</p>
+                              <p style="margin-top: -15px;">August 17, 2015 – April 9, 2019</p>
+                              <p style="margin-top: -15px;"><b>Project:</b> Information System for Beef cattle farms (Wagil) in the Northeast. (PHP)</p>
+                              <p style="margin-top: -15px;"><b>GPA:</b> <a href="pdfs/transcript.pdf" target="_blank">3.46</a></p>
+
 <center><video width="500" controls>
     <source src="videos/Spro.m4v" type="video/mp4">
 </video></center>
@@ -374,20 +413,18 @@ August 17, 2015 – April 9, 2019
                             </div>
 
                             <div style="margin-top: 30px;">
-                                <pre>
-<b>Major:</b> Science - Math
-Bungpalai high school, Nakhon Ratchasima
-May 16, 2012 - March 31, 2015
-<b>GPA:</b> <a href="pdfs/transcripths.pdf" target="_blank">3.58</a></pre>
-                                </pre>
-                                
+                               <p style="margin-top: -15px;"><b id="company">Major:</b> Science - Math</p>
+                               <p style="margin-top: -15px;">Bungpalai high school, Nakhon Ratchasima</p>
+                               <p style="margin-top: -15px;">May 16, 2012 - March 31, 2015</p>
+                               <p style="margin-top: -15px;"><b>GPA:</b> <a href="pdfs/transcripths.pdf" target="_blank">3.58</a></p>
+
                             </div>
 
                         </div>
                     </div>
 
                          <div id="Certification" class="carousel slide" data-ride="carousel">
-                            <b>CERTIFICATION</b> <hr>
+                            <b id="topic">CERTIFICATION</b> <hr style="margin-top: -2px;">
                                         
                              <div id="Cert" class="carousel slide" data-ride="carousel">
                             
@@ -580,17 +617,19 @@ May 16, 2012 - March 31, 2015
                         <div id="skill" class="carousel slide" data-ride="carousel">
 
                             <div style="margin-bottom: 20px;">
-                                <b>SKILL</b> <hr>
+                                <b id="topic">SKILLS</b> <hr style="margin-top: -2px;">
                                 <div>
-                                    <pre>
-<b>Programming Languages:</b>   C#, SQL, TypeScript, JavaScript, HTML, CSS, PHP, JAVA
-<b>Database:</b>                SQL Server, Oracle, MySQL
-<b>Other:</b>                   LINQ, SQL stored procedure, Git Version Control, Unit Test
-<b>Framework:</b>               .NET Framework, Entity Framework, Angular
-<b>Library:</b>                 jQuery, Bootstrap
-<b>Tools:</b>                   MS VS Studio, MS SQL Server, DBeaver, Crystal report, Postman, Git,
-                         Chat GPT, MS VS Code, Netbeans, Xampp, MySQL Workbench, Photoshop
-<b>Languages:</b>               Thai, English</pre>
+                        <p style="margin-top: -10px;"><b>Programming Languages:</b>   C#, SQL, TypeScript, JavaScript, HTML, CSS, PHP, JAVA</p>       
+                        <p style="margin-top: -15px;"><b>Database:</b>                SQL Server, Oracle, MySQL</p>    
+                        <p style="margin-top: -15px;"><b>Other:</b>                   LINQ, SQL stored procedure, Git Version Control, Unit Test</p>    
+                        <p style="margin-top: -15px;"><b>Framework:</b>               .NET Framework, Entity Framework, Angular</p>    
+                        <p style="margin-top: -15px;"><b>Library:</b>                 jQuery, Bootstrap</p>    
+                        <p style="margin-top: -15px;"><b>Tools:</b>                   MS VS Studio, MS SQL Server, DBeaver, Crystal report, Postman, Git,
+                            Chat GPT, MS VS Code, Netbeans, Xampp, MySQL Workbench, Photoshop</p>       
+<p style="margin-top: -10px;"><b>Languages:</b>              English, Thai</p>
+
+<p style="margin-top: 20px;"><b id="topic"  >HOBBIES</b></p> <hr style="margin-top: -17px;"> 
+<p style="margin-top: -10px;">Photograph, Edit pictures, Plan a trip, Drawing,  Cook, listen to music, Team playing Game</p>
                                 </div>
     
     
@@ -695,6 +734,8 @@ function experience(){
                 $("#genius").show();
                 $("#similan").show();
                 $("#compupower").show();
+                $("#exwork").hide();
+                $("#exworksi").hide();
             });
         }
    
@@ -710,7 +751,16 @@ function experience(){
                 $("#simulate").show();
             });
         }
-
+        function exwork(){
+            $(document).ready(function () {
+                $("#exwork").show();
+            });
+        }
+        function exworksi(){
+            $(document).ready(function () {
+                $("#exworksi").show();
+            });
+        }
         function comreport(){
             $(document).ready(function () {
                 $("#comreport").show();
