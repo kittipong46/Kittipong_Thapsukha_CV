@@ -52,7 +52,7 @@
 
         }
 
-        h5 {
+        h4 {
             color: rgb(236, 106, 74);
         }
 
@@ -240,15 +240,17 @@ button{
                 
                 <div class="col-xl-9 pos">
                     <br>
-                    <h5>C# .Net Developer, Programmer (C# .Net), Software Developer (C# .Net),
-                         Full Stack Developer</h5>
+                    <h4>Software Developer (C# .Net), Full Stack Developer</h4>
 
                          <p><b id="topic">Profile</b></p>
                     <hr style="margin-top: -17px;">
-                    <p style="margin-top: -10px;">I have experience in software development 3 years and 6 months in Human resources systems(CompuPower Co., Ltd.) and Warehouse systems(Similan Technology Co., Ltd.), On the work mainly used C# SQL, Use .Net framework, Made LINQ and SQL stored procedures for managing data results, Used Git version control for work with a team, used unit Test check process of the program, And Crystal report made another report, Use database SQL server Oracle and MySQL, Some time use Entity framework and Angular, Present live in Bang Pu 43, Thai Ban Mai, Samut Prakan 10280, Finish Bachelor of Business Administration major in Computer Information system at the Rajamangala University of Technology Isan, Nakhon Ratchasima, GPA 3.46 age 28 years old.
+                    <p style="margin-top: -10px;">I have experience in software development for 3 years and 9 months
+                        Develop 3 systems namely 1. POS 2. Human Resources 3. Warehouse,
+                        in web applications MVC, API, Windows application projects using C#(.Net framework, LINQ, sometimes use Entity framework) SQL(Stored Procedure) TypeScript JavaScript Angular CSS HTML PHP JAVA, Use database SQL server Oracle MySQL, create and edit the report by Crystal report,
+                        Source Control Git Team Explorer for joining the team.
 
                     </p>
-
+<P><b>Expected Salary 40,000 Baht</b></P>
                   
                    
                 </div>
@@ -292,7 +294,12 @@ button{
                                 <p  style="margin-top: -15px;"><b id="posi">Position: Programmer C#</b></p>
                                 <p  style="margin-top: -15px;">September 30, 2024 - Present</p>
                                 <p  style="margin-top: -15px; margin-left: 30px;"><b>Job description</b></p>
-                                <p  style="margin-top: -15px; margin-left: 30px;"> 1. AdaPOS F&B follows requirements, clears errors, and edits the program.</p>
+                                <p  style="margin-top: -15px; margin-left: 30px;"> 1. AdaPOS Food and Beverange (window, API, Rabbit MQ) project</p>
+                                <p  style="margin-top: -15px; margin-left: 45px;"> - The edits program follows requirements.</p>
+                                <p  style="margin-top: -15px; margin-left: 45px;"> - The clears errors in the program.</p>
+                                <p  style="margin-top: -15px; margin-left: 45px;"> - The edit SQL Stored Procedure.</p>
+                                <p  style="margin-top: -15px; margin-left: 45px;"> - The edit of the Order, Sale, Tax Slip.</p>
+                                <p  style="margin-top: -15px; margin-left: 45px;"> - Unit Test and Deploy project for Tester.</p>
                                 <p  style="margin-top: -15px; margin-left: 30px;">2. Develop sales system workshop to meet Adasoft standard code by Windows app in part Program screen design, use Windows app interact RESTful API, use API call rabbit MQ, use rabbit manage data in the database by SQL and stored procedure and tiger SQL.</p>
                           
                                 
@@ -314,7 +321,7 @@ button{
                                 <p  style="margin-top: -15px; margin-left: 30px;"><b>Projects API:</b> Portal HR, import employee data CSV, and personal details.</p>
                                 <p  style="margin-top: -15px; margin-left: 30px;">    <b>Reward:</b> Reward for project completion.</p>
                                 <p id="exwork"><b style="color: rgb(220, 43, 20);">Example work may be present in the interview.</b></p>
-                                <button class="btn btn-info" onclick="comre(),experience()">Reward</button>
+                                <button class="btn btn-info" onclick="comre(),hidegit()">Reward</button>
                                 <a href="#compuacti" onclick="hidealldiv(),experience(),compuacti(),hidegit()"><button class="btn btn-info">Activity</button> </a>
                                 <a href="#compuworks" > <button class="btn btn-info" onclick="exwork()">Ex Works</button> </a>
                                
@@ -628,7 +635,7 @@ button{
                         <p style="margin-top: -15px;"><b>Framework:</b>               .NET Framework, Entity Framework, Angular</p>    
                         <p style="margin-top: -15px;"><b>Library:</b>                 jQuery, Bootstrap</p>    
                         <p style="margin-top: -15px;"><b>Tools:</b>                   MS VS Studio, MS SQL Server, DBeaver, Crystal report, Postman, Git,
-                            Chat GPT, MS VS Code, Netbeans, Xampp, MySQL Workbench, Photoshop</p>       
+                            Chat GPT, Claude, MS VS Code, Netbeans, Xampp, MySQL Workbench, Photoshop</p>       
 <p style="margin-top: -10px;"><b>Languages:</b>              English, Thai</p>
 
 <p style="margin-top: 20px;"><b id="topic"  >HOBBIES</b></p> <hr style="margin-top: -17px;"> 
@@ -676,6 +683,7 @@ $(document).ready(function () {
                 $("#compuacti").hide();
                 $("#skill").hide();
                 $("#comre").hide();
+                $("#adasoft").hide();
             });
 
             function hidealldiv(){
@@ -698,6 +706,7 @@ $(document).ready(function () {
                 $("#compuacti").hide();
                 $("#skill").hide();
                 $("#comre").hide();
+                $("#adasoft").hide();
             });
 }
 
@@ -737,8 +746,10 @@ function experience(){
                 $("#genius").show();
                 $("#similan").show();
                 $("#compupower").show();
+                $("#adasoft").show();
                 $("#exwork").hide();
                 $("#exworksi").hide();
+
             });
         }
    
@@ -799,6 +810,7 @@ function experience(){
                 $("#simiacti").hide();
                 $("#compuacti").hide();
                 $("#skill").hide();
+                $("#adasoft").hide();
             });
         }
         //
@@ -814,6 +826,7 @@ function experience(){
                 $("#genius").hide();
                 $("#compuacti").hide();
                 $("#skill").hide();
+                $("#adasoft").hide();
             });
         }
 
@@ -828,6 +841,7 @@ function experience(){
                 $("#genius").hide();
                 $("#compuacti").hide();
                 $("#skill").hide();
+                $("#adasoft").hide();
             });
         }
 
@@ -843,6 +857,7 @@ function experience(){
                 $("#genius").hide();
                 $("#similan").hide();
                 $("#skill").hide();
+                $("#adasoft").hide();
             });
         }
 
@@ -863,7 +878,7 @@ function experience(){
 
         function comre(){
             $(document).ready(function () {
-                $("#comre").toggle();
+                $("#comre").show();
                 $("#compuacti").hide();
                 $("#compupower").show();
                 $("#simiacti").hide();
@@ -874,6 +889,7 @@ function experience(){
                 $("#genius").hide();
                 $("#similan").hide();
                 $("#skill").hide();
+                $("#adasoft").hide();
             });
         }
 
